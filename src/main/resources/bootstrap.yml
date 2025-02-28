@@ -1,0 +1,16 @@
+server:
+  port: 8088
+
+# bootstrap.yml加载优先级最高
+spring:
+  profiles:
+    active: ${spring.profiles.active:local}
+  application:
+    name: es-livedata
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/forge
+    username: root
+    password:
+
+load: bootstrap.yml

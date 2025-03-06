@@ -1,1 +1,7 @@
+# 动态的数据
+nacos:
+  server-addr: localhost:8848
+  namespace: be3a21df-c742-40f6-97d5-b9d0160e2ef1
+  group: learningcloud
+# 测试使用
 load: bootstrap-local.yml
